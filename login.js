@@ -1,7 +1,7 @@
-function login(username, password) {
-    let user = username;
+function login(TpWeb, password) {
+    let username = TpWeb;
 
-    if (user && password) {
+    if (username && password) {
         console.log("Connexion réussie");
     } else {
         console.log("Veuillez renseigner vos identifiants");
